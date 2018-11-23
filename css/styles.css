@@ -50,7 +50,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #c3c3c3;
   font-size: 8pt;
   letter-spacing: 1px;
   padding: 25px;
@@ -112,7 +112,7 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: #0275d8;
+    color: #004e91;
     text-decoration: none;
 }
 
@@ -127,6 +127,13 @@ nav h1 a {
   width: 100%;
   background-color: #ccc;
 }
+.leaflet-touch .leaflet-control-attribution, .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+  box-shadow: none;
+  color: black;
+}
+.leaflet-container a {
+  color: #003d56 !important;
+}
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   display: flex;
@@ -135,7 +142,7 @@ nav h1 a {
   justify-content: center;
   width: 100%;
   /*height: 50px;*/
-  background-color: #3397DB;
+  background-color: #242831;
   /*align-items: center;*/
 }
 .filter-options h2 {
@@ -143,7 +150,7 @@ nav h1 a {
   /*font-size: 1rem;*/
   font-size: 22px;
   font-weight: normal;
-  /*line-height: 1;*/
+  /*line-height: 1;*/#2495e2
   margin: 0 20px;
 }
 .filter-options select {
@@ -156,6 +163,10 @@ nav h1 a {
   margin: 5px;
   padding: 0 10px;
   width: 200px;
+}
+#neighborhoods-select:focus, #cuisines-select:focus{
+  outline: 0;
+  box-shadow: 0 0 5px 2px rgb(207, 207, 207);
 }
 
 /* ====================== Restaurant Listing ====================== */
@@ -189,7 +200,7 @@ nav h1 a {
   min-width: 100%;
 }
 .restaurant-name {
-  color: #f18200;
+  color: #a85b00;
   font-family: Arial,sans-serif;
   font-size: 14pt;
   font-weight: 200;
@@ -203,7 +214,7 @@ nav h1 a {
   font-size: 11pt;
 }
 .restaurant-detail-btn {
-  background-color: orange;
+  background-color: #535353;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -241,7 +252,7 @@ nav h1 a {
   width: 100%;
 }
 #restaurant-name {
-  color: #f18200;
+  color: #a85b00;
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 200;
@@ -259,7 +270,7 @@ nav h1 a {
   font-weight: bold;
   margin: 10px 0px;
 }
-#restaurant-cuisine {
+#restaurant-cuisine, #restaurant-cuisine-info {
   background-color: #333;
   color: #ddd;
   font-size: 12pt;
@@ -305,7 +316,7 @@ nav h1 a {
   padding-top: 10px;
 }
 #reviews-container h2 {
-  color: #f58500;
+  color: #a85b00;
   font-size: 24pt;
   font-weight: 300;
   letter-spacing: -1px;
@@ -347,7 +358,7 @@ nav h1 a {
 }*/
 .rating {
   color: white;
-  background-color: #ff8a00;
+  background-color: #a85b00;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
