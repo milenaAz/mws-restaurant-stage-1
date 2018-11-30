@@ -1,8 +1,19 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Restaurant Reviews App
 
-## Project Overview: Stage 1
+## Table of contents
+  * Overview
+  * Running the App
+
+## Overview
+In this project, I had to convert a static and not responsive webpage to a fully responsive and accesible for screen readers webpage. Also i had to add service workers so the app could work when network connection is down.
+
+## Running the App
+You can visit the live Demo here: [Live Page](https://milenaaz.github.io/restaurant-review-app/)
+
+However if you would like to run it locally follow the steps below:
+
+1. Download or clone the repository in your computer:
+    ```git clone https://github.com/milenaAz/restaurant-review-app.git ```
 
 For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
 
