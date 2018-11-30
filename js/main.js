@@ -1,6 +1,6 @@
 let restaurants,
-  neighborhoods,
-  cuisines
+    neighborhoods,
+    cuisines
 var newMap
 var markers = []
 
@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
   fetchCuisines();
 });
 
+/**
+ * Register service worker file.
+ */
 if('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker
