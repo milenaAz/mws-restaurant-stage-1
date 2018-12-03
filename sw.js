@@ -25,7 +25,6 @@ self.addEventListener('activate', e => {
 
 //The fetch event
 self.addEventListener('fetch', e => {
-	console.log(`Service Worker: fetching`);
 	e.respondWith(
 		fetch(e.request).then(res => {
 				const resClone = res.clone();
