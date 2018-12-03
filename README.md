@@ -7,7 +7,7 @@
 * Dependencies
 
 ## Overview
-In this project, I had to convert a static and not responsive webpage to a fully responsive and accesible for screen readers webpage. Also i had to add service workers so the app could work when network connection is down.
+In this project, I had to convert a static and not responsive webpage to a fully responsive and accessible for screen readers webpage. Also i had to add service workers so the app could work when network connection is down.
 
 ## Running the App
 You can visit the live Demo here: [Live Page](https://milenaaz.github.io/restaurant-review-app/)
