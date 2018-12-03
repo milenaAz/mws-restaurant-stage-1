@@ -1,10 +1,10 @@
 # Restaurant Reviews App
 
 ## Table of contents
-	* Overview
-	* Screenshots
-	* Running the App
-	* Dependencies
+* Overview
+* Screenshots
+* Running the App
+* Dependencies
 
 ## Overview
 In this project, I had to convert a static and not responsive webpage to a fully responsive and accesible for screen readers webpage. Also i had to add service workers so the app could work when network connection is down.
@@ -21,5 +21,5 @@ However if you would like to run it locally follow the steps below:
 4. With your server running, visit the site: `http://localhost:8000`
 
 ## Dependencies
-	* [Leaflet.js and Mapbox](https://www.mapbox.com/)
-	* [Starter code](https://github.com/udacity/mws-restaurant-stage-1)
+* [Leaflet.js and Mapbox](https://www.mapbox.com/)
+* [Starter code](https://github.com/udacity/mws-restaurant-stage-1)
